@@ -14,3 +14,15 @@ Wed, Mar 26, 2025  8:14:24 PM:
  tests:  0|6
 total_score: 0/70
 5f3b2e4
+Wed, Mar 26, 2025  8:17:25 PM: 
+In file included from test.c:5:0:
+list.c: In function 'popCurrent':
+list.c:156:15: error: unused variable 'eliminar' [-Werror=unused-variable]
+         Node* eliminar = list->current;
+               ^~~~~~~~
+list.c:182:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+12cfd9b
