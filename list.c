@@ -180,6 +180,8 @@ void * popCurrent(List * list)
         free(eliminar);
         return data;
     }
+
+    return NULL;
 }
 
 void cleanList(List * list) {
